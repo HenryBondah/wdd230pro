@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Bountiful Foods - Home</title>
+
+
+    <link rel="stylesheet" href="/small.css" >
+    <link rel="stylesheet" href="/medium.css">
+    <link rel="stylesheet" href="/large.css">
+    <!-- <link rel="stylesheet" href="/style.css"> --> 
+
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/scripts.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
+    <script src="https://kit.fontawesome.com/5716228e59.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./favicon_io/favicon.ico" >
+
+
+    
+  </head>
+  <body>
+    <header>
+      <div class="logo-img">
+        <img src="./images/fruitlogo.jpeg" height="90px" alt="bountiful logo" />
+      </div>
+      <nav>
+        <ul > 
+          <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+          <ul id="primaryNav">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#l">Contact</a></li>
+        </ul> 
+      </nav>
+      <div class="socials">
+        <a href="https://facebook.com" target="_blank" >
+            <i class="fa-brands fa-facebook"></i>                </a>
+        <a href="https://twitter.com" target="_blank">
+            <i class="fa-brands fa-twitter"></i>                </a>
+        <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>                </a> 
+    </div>
+    </header>
+    <br> 
+    <div class="banner">
+      <div class="banner-content">
+        
+        <p>
+          <br />
+          <i style="color: rgb(43, 255, 0)"><b>Bountiful Foods</b></i>
+          <br>
+           Be Refreshed
+        </p>
+        <span>
+          <img
+            src="./images/fruitjuice.jpeg"
+            height="250px"
+            alt="Home image 1"
+          />
+          <p></p>
+          <a href="tel:+233551046283">
+            Call Us <i class="fa fa-phone-alt"></i
+          ></a>
+        </span>
+        <a
+          href="./images/fruitjuice.jpeg"
+          class="btn"
+          target="_blank"
+          >Visit Us <i class="fa fa-location"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Box 1, 2 & 3 -->
+    <section id="box">
+      <h2>The Taste of Life</h2>
+      <hr />
+      <div class="box-main">
+        <div class="box-text">
+          <i class="fa fa-laptop"></i>
+          <h5>Current Weather Condition</h5>
+          <br />
+          <hr />
+          <div class="loc">
+          <p>San Diego: <span id="current-temp"></span> &deg;F</p>
+              <figure>
+                <img src="#" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+              </figure>
+            </div>
+              <div class="windspeed">
+                  <p>Windspeed : <span id="windValue"></span> mph</p>
+                  <p class="windvalue"></p>
+              </div>
+              <div class="windchill"> 
+                  <p>Windchill : 36 
+                    <span id="chillvalue"></span></p>
+                  <p class="windchill"></p>
+              </div>
+        </div>
+        <div class="box-text">
+          <i class="fa fa-store"></i>
+          <h5>Make Your Own Drink</h5>
+          <br />
+          <hr />
+          <p>
+            Use Any of our available uncountable flavors to make a fresh fresh Drink. Be creative and Refresh Yourself.
+          </p>
+        <button onclick="window.location.href='./join/join.html'">Help Yourself</button> 
+        </div>
+        <div class="box-text">
+          <i class="fa fa-credit-card"></i>
+          <h5>Accessibility</h5>
+          <br />
+          <hr />
+          <p>
+            It may not be in your power, may not be in your time, that there'll be any fruit. 
+            But that doesn't mean you stop doing the right thing. You may never know what 
+            results come from your action. But if you do nothing, there will be no result."          </p>
+        </div>
+        <br />
+        <section> 
+          <div class="text1">
+          <p>
+            San Diego is a major city in southern California and is known for its beautiful beaches, 
+            parks, and museums. After spending time outdoors or engaging in physical activity 
+            Bountiful Foods SHOULD BE YOUR LAST STOP. This is a home to many health-conscious 
+            individuals who prioritize consuming fresh and nutritious food and beverages. we offer 
+            a range of healthy and tasty options for customers who are looking for a refreshing 
+            and nutritious drink
+        </p></div>
+      </section>
+      </div>
+    </section>
+   
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./images/fruitlogo.jpeg" alt="mylogo" width="70">
+        </div>
+        <div class="footer-contact">
+          <h4>Bountiful Foods</h4>
+          <p>385 W 1st S <br>Rexburg, ID 83451</p>
+          <p><a href="bondahdean@gmail.com">info@BountifulFoods.org</a></p>
+          <p>208-458-4444</p>
+        </div>
+        <div class="footer-map">
+          
+          <a href="https://goo.gl/maps/b17zTF1NkiE4FevSA" target="_blank"> <i class="fa-solid fa-map-location-dot"></i></a>
+        </div>
+      </div>
+      <div class="footer-base">
+        <p>© <span id="currentyear">2023</span> | Henry Dean Bondah | Rexburg, ID | Last Updated: <span id="lastmodified">02/01/2023 15:15:56</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
